@@ -34,4 +34,5 @@ func main() {
 	for i := 0; i < rt.NumField(); i++ {
 		fmt.Printf("type.Field[%d].Name:=%v \n", i, rt.Field(i).Name)
 	}
+
 }
